@@ -4,8 +4,7 @@
   "description": "just exploring redux-observable",
   "main": "index.js",
   "scripts": {
-    "server": "http-server",
-    "start": "webpack index.js --output-filename index.bundle.js --watch",
+    "start": "webpack-dev-server",
     "test": "jest"
   },
   "author": "",
@@ -20,6 +19,7 @@
   },
   "devDependencies": {
     "http-server": "^0.9.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
